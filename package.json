@@ -1,0 +1,17 @@
+{
+  "name": "flip-grid-gallery",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html",
+    "scss": "node-sass --watch scss -o css"
+  },
+  "devDependencies": {
+    "parcel-bundler": "1.12.3"
+  },
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
